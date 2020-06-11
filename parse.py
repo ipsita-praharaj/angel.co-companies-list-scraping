@@ -2,6 +2,10 @@ import argparse
 import os.path
 import time
 
+import requests
+
+return requests.get(url).json()
+
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
